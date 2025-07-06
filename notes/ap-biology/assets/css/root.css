@@ -1,0 +1,40 @@
+html,
+body {
+   background-color: var(--background-color);
+   color: var(--font-color-main);
+   font-family: "Outfit", "Arial", sans-serif;
+   font-size: 16px;
+   margin: 0;
+   padding: 0;
+}
+@font-face {
+   font-family: "Outfit";
+   src: url("/assets/fonts/Outfit-VariableFont_wght.ttf") format("truetype");
+}
+/*Heading Sizes*/
+h1 {
+   font-size: 2.5rem;
+}
+h2 {
+   font-size: 2rem;
+}
+h3 {
+   font-size: 1.75rem;
+}
+h4 {
+   font-size: 1.5rem;
+}
+:root {
+   --accent: rgb(1, 164, 205);
+   --background-color: rgb(255, 255, 255);
+   --font-color-main: rgb(9, 103, 0);
+   --font-color-secondary: black;
+   --font-color-hover:grey;
+   --link-color: rgb(11, 128, 2);
+   --link-color-hover: grey;
+   --navbar-color: rgb(0, 111, 7);
+   --navbar-font-color: white;
+   --primary-color: rgb(244, 244, 244);
+   --primary-color-hover: white;
+   --secondary-color: white;
+}

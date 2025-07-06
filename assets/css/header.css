@@ -1,0 +1,33 @@
+header nav {
+   align-items: center;
+   background-color: var(--navbar-color);
+   color: var(--navbar-font-color);
+   display: flex;
+   justify-content: space-between;
+   padding: 0em 2em;
+   z-index: 1;
+}
+nav a {
+   color: inherit;
+   text-decoration: none;
+}
+
+header .logo {
+   /*Use for Now*/
+   font-size: 1.25rem;
+}
+header nav li {
+   display: inline;
+   font-size: 1.25rem;
+   padding: 1em;
+}
+
+/*Link hovering*/
+header .logo a:hover {
+   color: grey;
+}
+header nav li:hover {
+   background-color: white;
+   color: grey;
+   font-size: 1.3em;
+}

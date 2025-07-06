@@ -1,0 +1,40 @@
+.attribute {
+   bottom: 10px;
+   position: absolute;
+   right: 10px;
+}
+.hero {
+   align-items: center;
+   border-radius: 0cap 0cap 2cap 2cap;
+   display: flex;
+   font-family: "Outfit";
+   height: 56.25vw;
+   justify-content: center;
+   position: relative;
+}
+.hero h1 {
+   font-size: 3rem;
+}
+a {
+   color: var(--link-color)
+}
+article {
+   background-color: var(--primary-color);
+   margin: 1rem 0rem;
+   padding: 1rem;
+   border-radius: 2cap;
+}
+article a {
+   text-decoration: none;
+   color: inherit;
+}
+article:hover {
+   background-color: var(--primary-color-hover);
+   color: var(--font-color-hover)
+}
+main section {
+   padding: 0rem 2rem;
+}
+main h1 {
+   font-size: 2rem;
+}
