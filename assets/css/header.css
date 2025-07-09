@@ -19,7 +19,7 @@ header .logo {
 header nav li {
    display: inline;
    font-size: 1.25rem;
-   padding: 1em;
+   padding: 1rem;
 }
 
 /*Link hovering*/
@@ -29,5 +29,5 @@ header .logo a:hover {
 header nav li:hover {
    background-color: white;
    color: grey;
-   font-size: 1.3em;
+   font-size: 1.3rem;
 }

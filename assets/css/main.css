@@ -1,3 +1,39 @@
+/* Desktops */
+@media (max-width: 2880px) {
+   .hero {
+      height: 640px;
+   }
+   article {
+      background-color: var(--primary-color);
+      margin: 1rem 0rem;
+      padding: 1rem;
+      border-radius: 2cap;
+   }
+   html, body {
+      font-size: 16px;
+   }
+   main section {
+      padding: 0rem 2rem;
+   }
+}
+/* Tablet */
+@media (max-width: 1024px) {
+   .hero {
+      height: 480px;
+   }
+   html, body {
+      font-size: 12px;
+   }
+}
+/* Phones */
+@media (max-width: 600px) {
+.hero {
+      height: 240px;
+   }
+   html, body {
+      font-size: 8px;
+   }
+}
 .attribute {
    bottom: 10px;
    position: absolute;
@@ -8,33 +44,33 @@
    border-radius: 0cap 0cap 2cap 2cap;
    display: flex;
    font-family: "Outfit";
-   height: 56.25vw;
    justify-content: center;
    position: relative;
 }
-.hero h1 {
-   font-size: 3rem;
-}
 a {
-   color: var(--link-color)
-}
-article {
-   background-color: var(--primary-color);
-   margin: 1rem 0rem;
-   padding: 1rem;
-   border-radius: 2cap;
-}
-article a {
+   color: var(--link-color);
    text-decoration: none;
-   color: inherit;
 }
 article:hover {
    background-color: var(--primary-color-hover);
-   color: var(--font-color-hover)
+   color: var(--font-color-hover);
 }
-main section {
-   padding: 0rem 2rem;
+/*Heading Sizes*/
+h1 {
+   font-size: 3rem;
 }
-main h1 {
+h2 {
    font-size: 2rem;
+}
+h3 {
+   font-size: 1.5rem;
+}
+h4 {
+   font-size: 1rem;
+}
+p {
+   font-size: 1rem;
+}
+li {
+   font-size: 1rem;
 }
