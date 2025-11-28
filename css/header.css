@@ -1,6 +1,6 @@
 .logo {
    display: block;
-   margin: 2em;
+   margin: 1.5rem;
 }
 .navbar {
    align-items: center;
@@ -8,6 +8,7 @@
    justify-content: space-between;
    left: 0;
    margin: 0;
+   padding: 0;
    position: sticky;
    top: 0;
    z-index: 1000;
@@ -18,12 +19,12 @@
    margin: 0;
 }
 .navbar-links li {
-   padding: 2rem;
+   padding: 1.5rem;
 }
 .navbar-links li a {
    color: inherit;
    text-decoration: none;
 }
 .navbar-links li:hover {
-   background-color: rgb(249, 249, 249);
+   background-color: #f9f9f9;
 }
