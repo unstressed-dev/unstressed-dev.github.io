@@ -6,6 +6,18 @@
    justify-content: center;
    margin: 0;
 }
+.hero button {
+   background-color: none;
+   border: none;
+   border-radius: 10pt;
+   font-family: 'Outfit', sans-serif;
+   font-size: 1.5rem;
+   padding: 5pt;
+}
+.hero button:hover {
+   background-color: rgb(34, 64, 255);
+   color: rgb(255, 255, 255);
+}
 .hero-text {
    text-align: center;
 }
@@ -16,4 +28,5 @@ main section {
    color: rgb(24, 24, 24);
    padding: 2.5vw;
    margin: 0vw 10vw;
+   min-height: 200pt;
 }
