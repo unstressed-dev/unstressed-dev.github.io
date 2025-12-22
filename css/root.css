@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 body, html {
    font-family: 'Outfit', sans-serif;
+   font-size: 14pt;
    margin: 0;
    padding: 0;
 }

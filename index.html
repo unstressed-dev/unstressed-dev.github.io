@@ -26,10 +26,12 @@
             <div class="hero-text">
                <p>Hello, my name is</p>
                <h1>Devin Lin</h1>
-               <p>Student | Researcher | Amateur Programmer</p>
+               <button id="btn-student">Student</button>
+               <button id="btn-researcher">Researcher</button>
+               <button id="btn-programmer">Programmer</button>
             </div>
          </section>
-         <section>
+         <section id="main">
             <p>
                I'm a sophomore from Brooklyn Technical High School, and aspire
                to be a Electrical Engineer and Researcher in conductive
@@ -38,10 +40,29 @@
                properties of synthetically produced Ampullae of Lorenzini
                hydrogels, and their applications in bioelectronics. I am also an
                amateur programmer, aiming to develop skills in C++, Python, and
-               web development, as well as an active member of the BTHS Math Team.
+               web development, as well as an active member of the BTHS Math
+               Team.
             </p>
          </section>
       </main>
+      <script>
+         const btnStudent = document.getElementById("btn-student");
+         const btnResearcher = document.getElementById("btn-researcher");
+         const btnProgrammer = document.getElementById("btn-programmer");
+         const mainText = document.getElementById("main");
+         btnStudent.addEventListener("click", () => {
+            mainText.innerHTML = `<h1>Student</h1> 
+               <p>I'm a Student at Brooklyn Technical High School, a Specialized High School in Brooklyn, NY.
+               In addition, I am a former alumni of the CCNY STEM Institute, in which I took MATH 20100: Calculus I,
+               and PHYS 10000: Ideas of Physics. This year I will be taking MATH 155: Calculus II at CUNY Hunter Collge.</p>`;
+         });
+         btnResearcher.addEventListener("click", () => {
+            mainText.innerHTML = "I'm a Researcher.";
+         });
+         btnProgrammer.addEventListener("click", () => {
+            mainText.innerHTML = "I'm a Programmer.";
+         });
+      </script>
       <footer></footer>
    </body>
 </html>
