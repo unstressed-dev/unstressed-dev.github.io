@@ -2,7 +2,7 @@
    display: block;
    margin: 1.5rem;
 }
-#navbar {
+#main-nav {
    align-items: center;
    display: flex;
    justify-content: space-between;
