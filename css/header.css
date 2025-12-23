@@ -2,6 +2,9 @@
    display: block;
    margin: 1.5rem;
 }
+#logo a {
+   color: inherit;
+}
 #main-nav {
    align-items: center;
    display: flex;
