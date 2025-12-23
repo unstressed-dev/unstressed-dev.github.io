@@ -5,22 +5,17 @@
       <link rel="stylesheet" href="css/header.css" />
       <link rel="stylesheet" href="css/main.css" />
       <link rel="stylesheet" href="css/footer.css" />
+      <link rel="preload" href="scripts/nav.js" as="script">
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Devin Lin - Main</title>
    </head>
    <body>
       <header>
-         <nav class="navbar">
-            <!--Logo Place Holder-->
-            <p class="logo">Devin.</p>
-            <ul class="navbar-links">
-               <li>
-                  <a href="#">Portfolio</a>
-               </li>
-            </ul>
+         <nav class="navbar" id="main-nav">
          </nav>
       </header>
+      <script src="/scripts/nav.js" defer></script>
       <main>
          <section class="hero">
             <div class="hero-text">
@@ -53,21 +48,23 @@
          btnStudent.addEventListener("click", () => {
             mainText.innerHTML = `<h1>Student</h1> 
             <p>I am a Student at Brooklyn Technical High School, a Specialized
-            High School in Brooklyn, NY. In addition, I am a former alumni of 
+            High School in Brooklyn, NY. In addition, I am a former alumnus of 
             the CCNY STEM Institute, in which I took MATH 20100: Calculus I,
-            and PHYS 10000: Ideas of Physics.</p>`;
+            and PHYS 10000: Ideas of Physics. At Brooklyn Technical High School,
+            I am also the co-Vice President of the BTHS STEM Research Club and
+            an active member of the BTHS Math Team.</p>`;
          });
          btnResearcher.addEventListener("click", () => {
             mainText.innerHTML = `<h1>Researcher</h1>
             <p>I am a student researcher in the Josh Weston Research Scholars 
             Program, and am currently interested in biopolymers such as hydrogels, 
             and their conductivity. I am currently in my early stages of literature 
-            review</p>`;
+            review.</p>`;
          });
          btnProgrammer.addEventListener("click", () => {
             mainText.innerHTML = `<h1>Programmer</h1>
             <p>I am a amateur programmer with familiarity with Python, C++, and JavaScript.
-            I plan on creating more projects and sharing them on this portfolio</p>`;
+            I plan on creating more projects and sharing them on this portfolio.</p>`;
          });
       </script>
       <footer></footer>
