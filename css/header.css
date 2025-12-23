@@ -4,6 +4,7 @@
 }
 #logo a {
    color: inherit;
+   text-decoration: inherit;
 }
 #main-nav {
    align-items: center;
