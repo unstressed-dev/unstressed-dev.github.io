@@ -1,4 +1,4 @@
-.hero {
+#hero {
    align-items: center;
    background-color: #f9f9f9;
    display: flex;
@@ -6,7 +6,7 @@
    justify-content: center;
    margin: 0;
 }
-.hero button {
+#hero button {
    background-color: none;
    border: none;
    border-radius: 10pt;
@@ -14,14 +14,14 @@
    font-size: 1.5rem;
    padding: 5pt;
 }
-.hero button:hover {
+#hero button:hover {
    background-color: rgb(34, 64, 255);
    color: rgb(255, 255, 255);
 }
-.hero-text {
+#hero-text {
    text-align: center;
 }
-.hero-text h1 {
+#hero-text h1 {
    font-size: 5rem;
 }
 main section {
