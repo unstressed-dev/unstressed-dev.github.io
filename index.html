@@ -19,11 +19,12 @@
       <main>
          <section id="hero">
             <div id="hero-text">
-               <p>Hello, my name is</p>
                <h1>Devin Lin</h1>
                <button id="btn-student">Student</button>
                <button id="btn-researcher">Researcher</button>
                <button id="btn-programmer">Programmer</button>
+            </div>
+            <div id="hero-desc">
             </div>
          </section>
          <section id="main">
@@ -44,27 +45,37 @@
          const btnStudent = document.getElementById("btn-student");
          const btnResearcher = document.getElementById("btn-researcher");
          const btnProgrammer = document.getElementById("btn-programmer");
-         const mainText = document.getElementById("main");
+         const heroDesc = document.getElementById("hero-desc");
          btnStudent.addEventListener("click", () => {
-            mainText.innerHTML = `<h1>Student</h1> 
+            heroDesc.innerHTML = `
             <p>I am a Student at Brooklyn Technical High School, a Specialized
-            High School in Brooklyn, NY. In addition, I am a former alumnus of 
+            High School in Brooklyn, NY. I am a former alumnus of 
             the CCNY STEM Institute, in which I took MATH 20100: Calculus I,
-            and PHYS 10000: Ideas of Physics. At Brooklyn Technical High School,
-            I am also the co-Vice President of the BTHS STEM Research Club and
-            an active member of the BTHS Math Team.</p>`;
+            and PHYS 10000: Ideas of Physics.</p>`;
+            heroDesc.style.animation = "none";
+            requestAnimationFrame(() => {
+               heroDesc.style.animation = "fade-in 0.5s";
+            });
          });
          btnResearcher.addEventListener("click", () => {
-            mainText.innerHTML = `<h1>Researcher</h1>
+            heroDesc.innerHTML = `
             <p>I am a student researcher in the Josh Weston Research Scholars 
             Program, and am currently interested in biopolymers such as hydrogels, 
             and their conductivity. I am currently in my early stages of literature 
             review.</p>`;
+            heroDesc.style.animation = "none";
+            requestAnimationFrame(() => {
+               heroDesc.style.animation = "fade-in 0.5s";
+            });
          });
          btnProgrammer.addEventListener("click", () => {
-            mainText.innerHTML = `<h1>Programmer</h1>
+            heroDesc.innerHTML = `
             <p>I am a amateur programmer with familiarity with Python, C++, and JavaScript.
             I plan on creating more projects and sharing them on this portfolio.</p>`;
+            heroDesc.style.animation = "none";
+            requestAnimationFrame(() => {
+               heroDesc.style.animation = "fade-in 0.5s";
+            });
          });
       </script>
       <footer></footer>

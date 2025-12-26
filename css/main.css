@@ -1,17 +1,17 @@
 #hero {
    align-items: center;
    background-color: #f9f9f9;
-   display: flex;
+   display: grid;
+   grid-template-columns: 9fr 7fr;
    height: 450pt;
-   justify-content: center;
    margin: 0;
 }
 #hero button {
    background-color: none;
    border: none;
-   border-radius: 10pt;
+   border-radius: 0;
    font-family: 'Outfit', sans-serif;
-   font-size: 1.5rem;
+   font-size: 1.25rem;
    padding: 5pt;
 }
 #hero button:hover {
@@ -23,6 +23,19 @@
 }
 #hero-text h1 {
    font-size: 5rem;
+}
+@keyframes fade-in {
+   0% {
+      opacity: 0;
+   }
+   100% {
+      opacity: 100;
+   }
+}
+#hero-desc {
+   animation: fade-in;
+   animation-duration: 0.5s;
+   font-size: 1.5rem;
 }
 main section {
    color: rgb(24, 24, 24);
